@@ -40,7 +40,6 @@ const NewUserForm = (props) => {
         setAge("");
     }
 
-
     return (
         <div className={styles.input}>
             {showError && (
