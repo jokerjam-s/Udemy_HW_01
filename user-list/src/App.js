@@ -19,11 +19,11 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <React.Fragment>
             <h1>Управление пользователями</h1>
             <NewUserForm onAddUser={addUser} />
             <UserInfo users={users}/>
-        </div>
+        </React.Fragment>
     );
 }
 
